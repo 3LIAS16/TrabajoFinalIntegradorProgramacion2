@@ -1,0 +1,16 @@
+main
+model - modelo para los objetos, getters y setters
+service - logica interna, valida la informacion entrante
+dao - interactua con la base de datos
+
+config - hace la conexion con la base de datos
+
+
+create - ambos
+read - ambos
+update - ambos
+delete - ambos
+
+MenuDisplay - solo mostrar por pantalla
+AppMenu - maneja la seleccion del usuario y la delega al MenuHandler
+MenuHandler - logica de negocio y operaciones complejas
